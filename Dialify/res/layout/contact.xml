@@ -1,0 +1,35 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="?android:attr/listPreferredItemHeight"
+	android:padding="6dip"
+>
+
+	<CheckedTextView android:id="@+id/contact_name"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:textAppearance="?android:attr/textAppearanceLarge"
+		android:checkMark="?android:attr/listChoiceIndicatorMultiple"
+		android:layout_alignParentTop="true"
+		android:layout_alignParentRight="true"
+		android:ellipsize="marquee"
+	/>
+	
+	<TextView android:id="@+id/contact_type"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_alignParentLeft="true"
+		android:layout_alignParentBottom="true"
+		android:ellipsize="marquee"
+		android:textStyle="bold"
+	/>
+	
+	<TextView android:id="@+id/contact_number"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_toRightOf="@+id/contact_type"
+		android:layout_alignBaseline="@+id/contact_type"
+		android:layout_marginLeft="5dip"
+		android:ellipsize="marquee"
+	/>
+
+</RelativeLayout>

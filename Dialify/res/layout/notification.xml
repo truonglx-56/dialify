@@ -1,0 +1,57 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="?android:attr/listPreferredItemHeight"
+	android:padding="6dip"
+>
+
+	<ImageView android:id="@+id/notification_contact_photo"
+		android:layout_width="54dip"
+		android:layout_height="54dip"
+		android:layout_alignParentTop="true"
+		android:layout_alignParentLeft="true"
+		android:layout_marginRight="8dip"
+		android:scaleType="fitCenter"
+	/>
+	
+	<TextView android:id="@+id/notification_contact_name"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:textAppearance="?android:attr/textAppearanceLarge"
+		android:textColor="#000000"
+		android:textStyle="bold"
+		android:layout_alignParentTop="true"
+		android:layout_toRightOf="@+id/notification_contact_photo"
+		android:ellipsize="marquee"
+	/>
+
+	<TextView android:id="@+id/notification_notification_type"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_alignParentBottom="true"
+		android:layout_toRightOf="@+id/notification_contact_photo"
+		android:textColor="#000000"
+		android:textStyle="bold"
+	/>
+	
+	<TextView android:id="@+id/notification_contact_type"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_alignBaseline="@+id/notification_notification_type"
+		android:layout_toRightOf="@+id/notification_notification_type"
+		android:layout_marginLeft="3dip"
+		android:ellipsize="marquee"
+		android:textColor="#000000"
+		android:textStyle="bold"
+	/>
+	
+	<TextView android:id="@+id/notification_contact_number"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_toRightOf="@+id/notification_contact_type"
+		android:layout_alignBaseline="@+id/notification_notification_type"
+		android:layout_marginLeft="5dip"
+		android:ellipsize="marquee"
+		android:textColor="#000000"
+	/>
+	
+</RelativeLayout>
