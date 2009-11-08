@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">Dialify</string>
+	<string name="ticker">Dialified!</string>
+	<string name="help">Help</string>
+	<string name="help_content">
+		Dialify lets you put contacts into your notification bar, where you can call or text them instantly.\n
+		\nSimply select a contact to begin.\n
+		\nIf you edit your contacts after creating notifications, just run Dialify again to reset them.\n
+		\n~ Dialify ~\n
+		\nCreated by Eric Williams
+		\neric.c.williams@gmail.com\n
+		\nDedicated with love to Ian and Liliana.
+	</string>
+	<string name="OK">OK</string>
+	<string name="no_contacts">It looks like you have no contacts.\n\nThat makes me a sad panda.\n\n:\'-(</string>
+	<string name="too_many">Sorry, but that would put you over the limit of 10 notifications. Please delete some if you\'d like to create more.</string>
+	<string name="at_max">You currently have 10 notifications, which is the maximum allowed. Please delete some if you\'d like to create more.</string>
+	<string name="select_notification_type_title">What notification(s) would you like for this contact?</string>
+	<string name="text">Text</string>
+	<string name="call">Call</string>
+</resources>

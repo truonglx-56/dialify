@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+	<string-array name="notification_selections">
+		<item>Call</item>
+		<item>Text</item>
+		<item>Both call and text</item>
+		<item>None</item>
+	</string-array>
+
+</resources>
