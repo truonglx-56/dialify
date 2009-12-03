@@ -1,6 +1,8 @@
-package com.hyperbard.dialify;
+package org.hyperbard.dialify;
 
 import java.util.List;
+
+import org.hyperbard.dialify.R;
 
 import android.content.Context;
 import android.content.res.Resources;

@@ -1,7 +1,11 @@
-package com.hyperbard.dialify;
+package org.hyperbard.dialify;
 
 import java.util.ArrayList;
 import java.util.List;
+
+import org.hyperbard.dialify.ContactsHelper.Contact;
+import org.hyperbard.dialify.ContactsHelper.Sort;
+import org.hyperbard.dialify.NotificationHelper.NotificationType;
 
 import android.app.AlertDialog;
 import android.app.Dialog;
@@ -17,9 +21,7 @@ import android.widget.CheckedTextView;
 import android.widget.ListView;
 import android.widget.AdapterView.OnItemClickListener;
 
-import com.hyperbard.dialify.ContactsHelper.Contact;
-import com.hyperbard.dialify.ContactsHelper.Sort;
-import com.hyperbard.dialify.NotificationHelper.NotificationType;
+import org.hyperbard.dialify.R;
 
 /**
  * Main application activity.

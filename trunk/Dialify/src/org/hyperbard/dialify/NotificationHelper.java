@@ -1,4 +1,6 @@
-package com.hyperbard.dialify;
+package org.hyperbard.dialify;
+
+import org.hyperbard.dialify.ContactsHelper.Contact;
 
 import android.app.Notification;
 import android.app.NotificationManager;
@@ -8,7 +10,7 @@ import android.content.Intent;
 import android.net.Uri;
 import android.widget.RemoteViews;
 
-import com.hyperbard.dialify.ContactsHelper.Contact;
+import org.hyperbard.dialify.R;
 
 /**
  * Utility for creating and removing notifications.

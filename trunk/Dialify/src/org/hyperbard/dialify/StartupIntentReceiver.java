@@ -1,4 +1,4 @@
-package com.hyperbard.dialify;
+package org.hyperbard.dialify;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;
