@@ -1,4 +1,4 @@
-package com.hyperbard.dialify;
+package org.hyperbard.dialify;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -6,8 +6,9 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-import com.hyperbard.dialify.DatabaseHelper.Selections;
-import com.hyperbard.dialify.NotificationHelper.NotificationType;
+import org.hyperbard.dialify.DatabaseHelper.Selections;
+import org.hyperbard.dialify.NotificationHelper.NotificationType;
+
 
 import android.content.ContentValues;
 import android.content.Context;

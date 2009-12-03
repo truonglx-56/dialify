@@ -1,4 +1,4 @@
-package com.hyperbard.dialify;
+package org.hyperbard.dialify;
 
 import java.util.HashMap;
 

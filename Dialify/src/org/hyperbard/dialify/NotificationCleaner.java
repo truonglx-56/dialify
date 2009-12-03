@@ -1,12 +1,13 @@
-package com.hyperbard.dialify;
+package org.hyperbard.dialify;
 
 import java.util.List;
 
+import org.hyperbard.dialify.ContactsHelper.Contact;
+import org.hyperbard.dialify.ContactsHelper.Sort;
+import org.hyperbard.dialify.SelectionManager.Selection;
+
 import android.database.Cursor;
 
-import com.hyperbard.dialify.ContactsHelper.Contact;
-import com.hyperbard.dialify.ContactsHelper.Sort;
-import com.hyperbard.dialify.SelectionManager.Selection;
 
 /**
  * Cleans up notifications by removing and recreating them.

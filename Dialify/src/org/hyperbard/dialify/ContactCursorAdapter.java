@@ -1,4 +1,6 @@
-package com.hyperbard.dialify;
+package org.hyperbard.dialify;
+
+import org.hyperbard.dialify.ContactsHelper.Contact;
 
 import android.content.Context;
 import android.database.Cursor;
@@ -7,7 +9,7 @@ import android.widget.CheckedTextView;
 import android.widget.ResourceCursorAdapter;
 import android.widget.TextView;
 
-import com.hyperbard.dialify.ContactsHelper.Contact;
+import org.hyperbard.dialify.R;
 
 /**
  * Binds data from a contacts cursor (returned by methods in {@link ContactsHelper}) to the contact.xml view.
